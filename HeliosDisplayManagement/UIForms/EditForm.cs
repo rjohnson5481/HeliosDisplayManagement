@@ -62,7 +62,7 @@ namespace HeliosDisplayManagement.UIForms
                                 failed = true;
                             }
                         }, TaskCreationOptions.LongRunning);
-                    }, 3, 30).ShowDialog(this) !=
+                    }, 2, 10).ShowDialog(this) !=
                     DialogResult.Cancel)
                 {
                     if (failed)
